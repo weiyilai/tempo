@@ -5,6 +5,7 @@
 *.test
 /bin
 /cmd/tempo-cli/tempo-cli
+/cmd/tempo-query/tempo-query
 /cmd/tempo-serverless/vendor/
 /dist
 /example/docker-compose/**/gcs-data/
@@ -19,3 +20,4 @@
 private-key.key
 integration/e2e/e2e_integration_test[0-9]*
 .tempo.yaml
+/tmp
